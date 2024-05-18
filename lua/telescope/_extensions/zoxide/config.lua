@@ -9,6 +9,7 @@ local default_config = {
 
   -- Zoxide list command with score
   list_command = "zoxide query -ls",
+  previewer = true,
   mappings = {
     default = {
       action = function(selection)
